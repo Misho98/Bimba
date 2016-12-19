@@ -1,9 +1,9 @@
-import React, {Components} from 'react';
+import React, {Component} from 'react';
 
 export default class AboutPage extends Component {
     render() {
         return (
-            <div>About Page GitHub </div>
+            <div>About Page</div>
         );
     }
 }
