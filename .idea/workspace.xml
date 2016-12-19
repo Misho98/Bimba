@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28915fdb-88b6-498e-bf06-43633b19d2b6" name="Default" comment="Added basic navigation buttons.">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/fallingsnow_v6.js" afterPath="" />
+    <list default="true" id="28915fdb-88b6-498e-bf06-43633b19d2b6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
     </list>
     <ignored path="MVC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -427,12 +425,20 @@
       <workItem from="1482146075534" duration="2692000" />
       <workItem from="1482158372322" duration="4225000" />
       <workItem from="1482166568851" duration="631000" />
-      <workItem from="1482172598889" duration="1496000" />
+      <workItem from="1482172598889" duration="1509000" />
     </task>
+    <task id="LOCAL-00001" summary="Added basic navigation buttons.">
+      <created>1482174103464</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1482174103464</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62251000" />
+    <option name="totallyTimeSpent" value="62264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
