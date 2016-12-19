@@ -29,20 +29,14 @@ class App extends Component {
         let navbar = {};
         if (!this.state.loggedIn) {
             navbar = (
-                    <Navbar>
-                        <Link className="btn btn-primary" href="https://gleam.io/MlNiG/jayztwocents-holiday-giveaway">Piknq </Link>
-                        <Link to="/" className="btn btn-default" activeClassName="btn btn-default active" onlyActiveOnIndex={true}>Home</Link>
-                        <Link to="/about" className="btn btn-default" activeClassName="btn btn-default active">About</Link>
-                        <Link to="/login" className="btn btn-default" activeClassName="btn btn-default active">Login</Link>
-                        <Link to="/register" className="btn btn-default" activeClassName="btn btn-default active">Register</Link>
 
-                        <div class="row">
-                            <div class="col-lg-2"><button type="button" class="btn btn-lg btn-primary">Primary</button></div>
-                            <div class="col-lg-2"><button type="button" class="btn btn-lg  btn-success">Success</button></div>
-                            <div class="col-lg-2"><button type="button" class="btn btn-lg  btn-info">Info</button></div>
-                            <div class="col-lg-2"><button type="button" class="btn btn-lg  btn-warning">Warning</button></div>
-                            <div class="col-lg-2"><button type="button" class="btn btn-lg  btn-danger">Danger</button></div>
-                        </div>
+                <Navbar>
+                        <Link className="btn btn-primary" to="/">FORUM</Link>
+                        <Link className="btn btn-success" to="/login">LOGIN</Link>
+                        <Link className="btn btn-warning" to="/Register">REGISTER</Link>
+                        <Link className="btn btn-info" to="/About">ABOUT</Link>
+
+
 
                     </Navbar>
                 );
@@ -54,7 +48,7 @@ class App extends Component {
                     <Link to="/about" className="btn btn-default" activeClassName="btn btn-default active">About</Link>
                     <Link to="/logout" className="btn btn-default" activeClassName="btn btn-default active">Logout</Link>
                 </Navbar>
-            );
+            )
         }
 
         return (
@@ -65,7 +59,7 @@ class App extends Component {
                 {this.props.children}
                 <Infobox/>
             </div>
-        )
+            )
     }
 }
 
